@@ -1,12 +1,6 @@
 # <p align="center">YouTube Ad Blocker Popup Removal</p>
 
-<p align="center"><img width="100" src="https://github.com/sauravhathi/youtube-ad-blocker-popup-removal/blob/master/images/icon128.png" alt="youtube-ad-blocker-popup-removal"></p>
-
 <p align="center">YouTube Ad Blocker Popup Removal is a Google Chrome extension that removes the annoying popup that appears when you try to skip an ad on YouTube.</p>
-
-## Screenshots
-
-<img width="800" src="https://github.com/sauravhathi/youtube-ad-blocker-popup-removal/blob/master/youtube-ad-blocker-popup-removal.gif" alt="youtube-ad-blocker-popup-removal"/>
 
 ## Installation
 
@@ -21,26 +15,6 @@ Follow these simple steps to install the extension:
 4. **Load Unpacked Extension:** Click on "Load unpacked" and select the folder where you extracted the repository.
 
 5. **Done:** The extension should now be installed and working. You can test it by playing a YouTube video with ads and trying to skip the ad.
-
-## Broswer Support
-
-### Chrome
-
-```json
-  "background": {
-    "service_worker": "./background.js"
-  }
-```
-
-### Mozilla Firefox
-
-```json
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
-  }
-```
 
 ## Contributing
 
