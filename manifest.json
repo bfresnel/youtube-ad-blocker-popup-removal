@@ -19,5 +19,11 @@
       "js": ["content.js"],
       "css": ["content.css"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{a514796e-e81a-4b38-b260-ace997050c0e}",
+      "strict_min_version": "58.0"
+    }
+  }
 }
