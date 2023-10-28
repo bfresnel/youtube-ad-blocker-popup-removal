@@ -1,4 +1,4 @@
-.donate-btn {
+.special-button {
     background-color: #ff0000;
     border: none;
     border-radius: 20px;
@@ -11,7 +11,7 @@
     transition: all 0.3s ease;
 }
 
-.donate-btn:hover {
+.special-button:hover {
     background-color: #ff0000;
     color: #fff;
     border: 1px solid #ff0000;

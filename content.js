@@ -14,7 +14,8 @@ function watchForElement() {
     const p = document.querySelector("div#owner");
 
     const specialButton = document.createElement("button");
-    specialButton.innerHTML = "Yo poto :)"
+    specialButton.innerHTML = "Yo poto :)";
+    specialButton.classList.add("special-button");
 
     // If the backdrop and dialog exist, remove them.
     if (backdrop) {
