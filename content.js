@@ -20,7 +20,6 @@ function watchForElement() {
     const backdrop = document.querySelector(backdropSelector);
     const dialog = document.querySelector(dialogSelector);
     const playButton = document.querySelector(playButtonSelector);
-    const p = document.querySelector("div#owner");
 
     // If the backdrop and dialog exist, remove them.
     if (backdrop) {
@@ -33,10 +32,7 @@ function watchForElement() {
       if (playButton) {
         playButton.click();
       }
-      if (p) {
-        // Add the donate button to the video owner's profile.
-        p.appendChild(donateBtn);
-      }
+
       observer.disconnect();
     }
 
